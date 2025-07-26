@@ -1,0 +1,255 @@
+header{
+  background-color: #ffffff;
+  text-align: center;
+}
+
+img {
+    float: left;
+    margin-right: 10px; 
+  }
+
+header nav ul{
+    list-style: none; 
+}
+
+header nav ul li{ 
+    display: inline; 
+    margin:0 15px;
+} 
+
+header nav ul li a{
+    color: #000; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+button { 
+  display: inline;
+  padding: 10px; 
+  border-radius: 20px; 
+  color: #ffffff;
+}
+
+.container header nav ul li hr { 
+  border-bottom : gray;
+}
+
+main{
+  margin:10px;
+  background-color: #ffffff; 
+}
+
+.welcome-container{ 
+  overflow: hidden;
+  display: flex;
+}
+
+.right-section img {
+  float: right;
+  width: 80%;
+  height: 80%;
+  margin-right: 150px;
+}
+
+.left-section,.right-section{
+  width: 50%;
+}
+ .left-section h1 {
+  text-align: center; 
+  font-size: xx-large ; 
+  margin-top: 50px; 
+  margin-right: 5px; 
+  margin-left: 50px;
+ }
+
+.left-section p {
+  text-align: center; 
+  font-size: large; 
+  font-weight: bold;  
+  font-style: italic; 
+  margin-bottom: 100px; 
+  margin-right: 20px;
+ }
+
+.container {overflow: visible;}
+
+main nav ul li{ 
+  display: inline; 
+  color:#ffffff; 
+  text-align: center; margin:0px;
+  margin-left: 50px; 
+  background-color: blue /* blue background for the main content*/; 
+  font-family: Arial; font-size: smaller; 
+  padding: 10px; 
+  border-radius: 20px; 
+  margin-bottom: 20px;
+}
+
+div img { 
+  background-repeat: repeat; 
+  background-size: cover; color: #000;
+}
+
+.pic-box  style { 
+  background-image: url(Web-banner.jpg); 
+  background-size: cover; color: #000;
+  background-color: #ffffff;
+}
+
+.pic-box style article h2 p{ 
+  color: #000;
+  background-color: white;
+} 
+
+.div style p img{ 
+  background-color: #000; 
+  text-align: center; 
+  color: #ffffff;
+}
+
+div h4 { 
+  text-align:center; 
+  color: #000; 
+  background-color: #ffffff; 
+  background-size: cover;
+}
+
+hr{ 
+  width: 20px; color: blue;
+}
+
+
+div h4 p img{ 
+  margin-left: 20px; 
+  margin-right: 40px; 
+  margin: 10px;
+}
+
+/*Nelson code starts here */
+.nav-button{
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    margin-left: 86px;
+}
+
+.custom-blue-button {
+    background-color: blue;
+    width: 95px;
+    height: 29px;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    border-radius: 34px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.dark-blue-box{
+  background-image: url('images/camp.jpeg');
+  height: 600px;
+  padding: 50px;
+}
+
+.card{
+  background-color: #ffffff;
+  height: 250px;
+  width: 33%;
+  margin: 10px;
+  padding: 15px;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid lightgrey;
+  /* box-shadow: 6px 0px 14px lightgrey; */
+}
+
+.top-card-wrapper{
+  display: flex;
+}
+
+.custom-white-button {
+    background-color: white;
+    width: 95px;
+    height: 29px;
+    color: black;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 3px;
+    border: 2px solid lightgrey;
+}
+
+a{
+   text-decoration: none;
+}
+
+.service-timer-box{
+  background-color: #000;
+  height: 550px;
+  justify-items: center;
+  padding: 150px;
+}
+
+h1.white-text{
+    color: white;
+}
+
+.grey-text{
+    color: grey;
+}
+
+.custom-red-button {
+    background-color: red;
+    width: 95px;
+    height: 29px;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 3px;
+   border-radius: 5px;
+}
+
+.image-row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.image1{
+  background-image: url("images/messages.jpeg");
+  width: 33%;
+  height: 322px;
+  background-size: cover;    
+}
+
+.image2{
+  background-image: url("images/handshake.jpeg");
+  width: 33%;
+  height: 322px;
+  background-size: cover;    
+}
+
+
+.image3{
+  background-image: url("images/handshake.jpeg");
+  width: 33%;
+  height: 322px;
+  background-size: cover;    
+}
+
+.fellowship-circle {
+  background: white;
+  height: 250px;
+  text-align: center;
+}
+
+.dashed-rule{
+  border-color: 2px solid blue;
+  text-decoration: dashed;
+}
+
